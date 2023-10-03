@@ -4,7 +4,7 @@ export const Header = () => {
     return (
         <>
         <header className={styles.header}>
-            <img src="../src/assets/Nu Kenzie.png" alt="logo" />
+            <img src="../src/assets/logo.png" alt="logo" />
         </header>
         </>
     )

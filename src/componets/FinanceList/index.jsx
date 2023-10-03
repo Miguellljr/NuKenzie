@@ -29,7 +29,7 @@ export const FinanceList = ({ listCards, removeCard }) => {
             })}
           </ul>
         ) : (
-          <p className="title two">Você ainda não possui nenhum lançamento</p>
+          <h2 className="title two">Você ainda não possui nenhum lançamento</h2>
         )}
       </section>
     </>
