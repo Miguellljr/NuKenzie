@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+    @media(min-width: 1200px){
+        margin: 0 auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
+        gap: 3rem;
+    
+    }
+}

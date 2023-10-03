@@ -1,0 +1,45 @@
+.financeForm {
+  margin: 0 auto;
+  width: 90%;
+  
+  @media(min-width: 1200px){
+    width: 25rem;
+  }
+
+  form {
+    box-sizing: border-box;
+    margin: 1.875rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+    justify-content: center;
+    border: 1px solid #00000033;
+    padding: 1.25rem;
+
+  }
+
+  input,
+  select {
+    width: 350px;
+    height: 52.8px;
+    background-color: var(--grey-1);
+
+    border: 2px solid var(--grey-1);
+    border-radius: 0.5rem;
+
+    color: var(--grey-3);
+  }
+
+  input::placeholder {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+
+    color: var(--grey-3);
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  button {
+    margin: 0.9375rem 0;
+  }
+}

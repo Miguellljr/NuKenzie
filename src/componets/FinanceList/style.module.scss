@@ -1,0 +1,27 @@
+.financeList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+  margin: 0 auto;
+  width: 90%;
+  height: 450px;
+
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+  }
+
+  ul > h2 {
+    @media (min-width: 1200px) {
+        margin: 1.5625rem 0 1.5625rem 0;;
+      }
+  }
+
+  ul {
+    @media (min-width: 1200px) {
+      width: 100%;
+      width: 50rem;
+    }
+  }
+}

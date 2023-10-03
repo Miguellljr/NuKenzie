@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin: 1.25rem auto;
+
+  box-sizing: border-box;
+  width: 27.1875rem;
+  height: 9.75rem;
+  padding: 0.625rem;
+  position: relative;
+
+  background-color: var(--grey-1);
+  border-left: 4px solid var(--color-secondary);
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6.25rem;
+    width: 80%;
+    margin: 0 0 1.25rem 0;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      height: 100%;
+      width: 9.375rem;
+    }
+
+    div > p {
+      align-self: end;
+      height: 50%;
+      margin: 1.25rem 0.625rem 0 0;
+    }
+
+    button {
+      right: 10px;
+    }
+  }
+
+  button {
+    height: 1.5625rem;
+    width: 4rem;
+    position: absolute;
+    bottom: 0.9375rem;
+    
+
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+
+    background-color: var(--grey-2);
+  }
+
+  &.green {
+    border-color: var(--color-secondary);
+    border-radius: 4px;
+  }
+
+  &.gray {
+    border-color: var(--grey-2);
+    border-radius: 4px;
+  }
+}

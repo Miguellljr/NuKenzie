@@ -1,0 +1,43 @@
+.title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: var(--grey-4);
+
+    &.one{
+        font-size: 2.375rem;
+        line-height: 3rem;
+    }
+
+    &.two{
+        font-size: 1.375rem;
+        line-height: 2.125rem;
+    }
+
+    &.three{
+        font-size: 1rem;
+        line-height: 1.875rem;
+    }
+    
+    &.four{
+        font-size: 0.75rem;
+        line-height: 1.625rem;
+    }
+
+}
+
+.paragrath{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    
+    &.headline{
+        color: var(--grey-3);
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    &.body{
+        color: var(--grey-4);
+        font-size: 0.75rem;
+        line-height: 1.375rem;
+    }
+}
